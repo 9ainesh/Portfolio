@@ -1,0 +1,71 @@
+.contact {
+  padding: 6rem 2rem 2rem;
+}
+.contact__desc {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 1.1rem;
+  max-width: 500px;
+  margin: 0 auto 2.5rem;
+}
+.contact__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.contact__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(30, 30, 60, 0.5);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  border-radius: 14px;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.contact__card:hover {
+  border-color: rgba(99, 102, 241, 0.35);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(99, 102, 241, 0.1);
+}
+.contact__card-icon {
+  font-size: 1.6rem;
+  color: #a855f7;
+  margin-bottom: 0.8rem;
+}
+.contact__card h4 {
+  color: #e2e8f0;
+  margin: 0 0 0.3rem;
+  font-size: 1rem;
+}
+.contact__card p {
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin: 0;
+  word-break: break-word;
+}
+.footer {
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(99, 102, 241, 0.08);
+}
+.footer p {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+.footer__heart {
+  color: #ef4444;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+.footer__copy {
+  font-size: 0.8rem !important;
+  margin-top: 0.3rem;
+}

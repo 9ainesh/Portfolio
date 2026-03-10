@@ -1,0 +1,110 @@
+.achievements {
+  padding: 6rem 2rem;
+}
+.achievements__layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+.achievements__subtitle {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.15rem;
+  color: #e2e8f0;
+  margin-bottom: 1.5rem;
+}
+.achievements__subtitle-icon {
+  color: #a855f7;
+}
+.achievements__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  background: rgba(30, 30, 60, 0.4);
+  border-radius: 10px;
+  border: 1px solid rgba(99, 102, 241, 0.05);
+  transition: all 0.3s;
+}
+.achievements__item:hover {
+  border-color: rgba(99, 102, 241, 0.2);
+  transform: translateX(4px);
+}
+.achievements__star {
+  color: #eab308;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+}
+.achievements__item p {
+  color: #94a3b8;
+  font-size: 0.93rem;
+  margin: 0;
+  line-height: 1.5;
+}
+.achievements__profile-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 1.5rem;
+  background: rgba(30, 30, 60, 0.5);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+}
+.achievements__profile-card:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+  transform: translateY(-2px);
+}
+.achievements__profile-icon {
+  font-size: 1.8rem;
+  color: #a855f7;
+}
+.achievements__profile-card h4 {
+  color: #e2e8f0;
+  margin: 0 0 0.2rem;
+  font-size: 1rem;
+}
+.achievements__profile-card p {
+  color: #94a3b8;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.achievements__stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.achievements__stat {
+  text-align: center;
+  padding: 1.2rem;
+  background: rgba(30, 30, 60, 0.5);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  border-radius: 12px;
+}
+.achievements__stat-number {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.achievements__stat-label {
+  font-size: 0.78rem;
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+  .achievements__layout {
+    grid-template-columns: 1fr;
+  }
+  .achievements__stats {
+    grid-template-columns: 1fr 1fr;
+  }
+}
