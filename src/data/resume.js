@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "naineshpatil9112@gmail.com",
   phone: "+91 7874844752",
   linkedin: "https://www.linkedin.com/in/nainesh-patil-518a71189",
-  github: "https://github.com/naineshpatil",
+  github: "https://github.com/9ainesh",
   location: "Hyderabad, India",
   tagline: "Building scalable backend systems & crafting intuitive frontends",
   about:
